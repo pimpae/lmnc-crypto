@@ -69,11 +69,20 @@
 .theme-white  .navbar-toggler i{
   color: #000;
 }
-.theme-white main {
-  padding-top: 80px;
-  background:  url(../images/BG.png);
-  background-repeat: no-repeat !important;
-  background-size:  300px auto   !important;
-  background-position: top right -50% !important;
-  padding-bottom: 100px;
+
+@media only screen and (max-width: 576px) { /* MOBILE */ 
+  .theme-white main {
+    padding-top: 80px;
+    background:  url(../images/BG.png) , #fff;
+    background-repeat: no-repeat !important;
+    background-size:  500px auto   !important;
+    background-position: top 300px right -45% !important;
+    padding-bottom: 80px;
+  }
+  .theme-white .navbar-collapse.show{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(90, 110, 123, 0.1);
+  }
 }

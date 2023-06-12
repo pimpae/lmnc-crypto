@@ -193,6 +193,8 @@ main{
 .box-work2 h3{
   margin-bottom: 30px;
   text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
 .box-work2 p{
  margin-bottom: 50px;
@@ -358,13 +360,74 @@ font-family: Satisfy;
   .logo-200{
     padding-top: 0px;
     height: 255px;
+    margin-right: auto;
   }
   main {
     padding-top: 80px;
     background:  url(../images/BG.png);
     background-repeat: no-repeat !important;
-    background-size:  300px auto   !important;
-    background-position: top right -50% !important;
-    padding-bottom: 100px;
+    background-size:  500px auto   !important;
+    background-position: top 300px right -45% !important;
+    padding-bottom: 80px;
+  }
+  header .navbar {
+    padding: 20px 30px;
+    height: 80px; 
+  }
+  .box-ri h2{
+    font-size: 24px;
+  }
+  .hb::after { 
+    top: 55px;
+  }
+  .box-ri {
+    padding: 48px 16px; 
+  }
+  .box-ri2{
+    padding: 60px 48px;  
+    margin-bottom: 24px;
+  }
+  .hbc::after{
+    top: 20px;
+  }
+  .box-work h3 { 
+    font-size: 24px; 
+  }
+  .box-work p { 
+    font-size: 16px; 
+  }
+  .app-al{
+    margin-bottom: 24px;
+  }
+  .box-work2 h3 { 
+    font-size: 24px;
+  }
+  footer .logo3 {
+    margin-bottom: 50px;
+  }
+  .navbar-collapse.show{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #031A2A;
+    box-shadow: 0px 4px 6px rgba(90, 110, 123, 0.1);
+  }
+  .navbar .collapse .navbar-nav li a{
+    text-align: left;
+  }
+  .home-grp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .home-tt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-work {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-work2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
