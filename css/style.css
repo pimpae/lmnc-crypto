@@ -431,3 +431,9 @@ font-family: Satisfy;
     padding-bottom: 50px;
   }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) { /* MOBILE */
+ 
+
+}
