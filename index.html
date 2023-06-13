@@ -17,6 +17,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
    
 	
 </head>
@@ -129,32 +130,38 @@
 				<p>A truly decentralized blockchain interoperability network to drivve the future of DeFi.</p>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
+				<ul id="workx">
+					<li>
 						<div class="app-al">
 							<img src="images/image.png" alt="">
 							<a href="#" class="btn btn-warning text-transform m-auto d-block">Lauch app</a>
 						</div>
-					</div>
-					<div class="col-lg-3">
+					</li>
+					<li>
 						<div class="app-al">
 							<img src="images/image.png" alt="">
 							<a href="#" class="btn btn-warning text-transform m-auto d-block">Lauch app</a>
 						</div>
-					</div>
-					<div class="col-lg-3">
+					</li>
+					<li>
 						<div class="app-al">
 							<img src="images/image.png" alt="">
 							<a href="#" class="btn btn-warning text-transform m-auto d-block">Lauch app</a>
 						</div>
-					</div>
-					<div class="col-lg-3">
+					</li>
+					<li>
 						<div class="app-al">
 							<img src="images/image.png" alt="">
 							<a href="#" class="btn btn-warning text-transform m-auto d-block">Lauch app</a>
 						</div>
-					</div>
-				</div>
+					</li>
+					<li>
+						<div class="app-al">
+							<img src="images/image.png" alt="">
+							<a href="#" class="btn btn-warning text-transform m-auto d-block">Lauch app</a>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</section>
 		<section class="box-work2">
@@ -162,8 +169,8 @@
 				<h3 class="hbc">LMNC News</h3> 
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-4">
+				<ul id="news">
+					<li>
 						<div class="news">
 							<img src="images/image.png" alt="">
 							<div class="des">
@@ -176,9 +183,9 @@
 									standard dummy text ever since the 1500s,
 								</h6>
 							</div>
-						</div>
-					</div> 
-					<div class="col-lg-4">
+						</div>	
+					</li>
+					<li>
 						<div class="news">
 							<img src="images/image.png" alt="">
 							<div class="des">
@@ -191,9 +198,9 @@
 									standard dummy text ever since the 1500s,
 								</h6>
 							</div>
-						</div>
-					</div> 
-					<div class="col-lg-4">
+						</div>	
+					</li>
+					<li>
 						<div class="news">
 							<img src="images/image.png" alt="">
 							<div class="des">
@@ -206,11 +213,39 @@
 									standard dummy text ever since the 1500s,
 								</h6>
 							</div>
-						</div>
-					</div> 
-
-
-				</div>
+						</div>	
+					</li>
+					<li>
+						<div class="news">
+							<img src="images/image.png" alt="">
+							<div class="des">
+								<h4>New</h4>
+								<h6>
+									Lorem Ipsum is simply dummy text of 
+									the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's 
+									
+									standard dummy text ever since the 1500s,
+								</h6>
+							</div>
+						</div>	
+					</li>
+					<li>
+						<div class="news">
+							<img src="images/image.png" alt="">
+							<div class="des">
+								<h4>New</h4>
+								<h6>
+									Lorem Ipsum is simply dummy text of 
+									the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's 
+									
+									standard dummy text ever since the 1500s,
+								</h6>
+							</div>
+						</div>	
+					</li>
+				</ul>
 			</div>
 		</section>
 
@@ -271,11 +306,87 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"  ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"  ></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script> 
 
 	<script>
  
+ 
+ 		$(document).ready(function() { 
 
-		 
+			$('#workx').lightSlider({
+				item:4,
+				slideMargin: 20,
+				loop: true,
+				slideMove:1,
+				easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+				speed:600, 
+				responsive : [
+					{
+						breakpoint:1400,
+						settings: {
+							item:3,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					}, 
+					{
+						breakpoint: 768,
+						settings: {
+							item:2,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					}, 
+					{
+						breakpoint: 576,
+						settings: {
+							item:1,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					} 
+				]
+			});  
+
+			$('#news').lightSlider({
+				item:3,
+				slideMargin: 20,
+				loop: true,
+				slideMove:1,
+				easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+				speed:600, 
+				responsive : [
+					{
+						breakpoint:1400,
+						settings: {
+							item:3,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					}, 
+					{
+						breakpoint: 768,
+						settings: {
+							item:1,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					}, 
+					{
+						breakpoint: 576,
+						settings: {
+							item:1,
+							slideMove:1,
+							slideMargin: 20,
+						}
+					} 
+				]
+			});  
+
+			 
+
+ 
+		});
 		$('.theme-sw').click(function(){     
 			$(".theme").toggleClass("theme-white");
 			$('.theme-sw span').text(($(".theme-sw span").text() == "Light") ? "Dark" : "Light").fadeIn();
