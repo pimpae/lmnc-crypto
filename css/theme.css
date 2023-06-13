@@ -86,3 +86,14 @@
     box-shadow: 0px 4px 6px rgba(90, 110, 123, 0.1);
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) { /* MOBILE */ 
+  .theme-white main {
+    padding-top: 80px;
+    background:  url(../images/BG.png) , #fff;
+    background-repeat: no-repeat !important;
+    background-size:  500px auto   !important;
+    background-position: top 0px right -30% !important;
+    padding-bottom: 80px;
+  }
+}

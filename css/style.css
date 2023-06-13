@@ -434,6 +434,61 @@ font-family: Satisfy;
 
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) { /* MOBILE */
- 
-
+  .cover-text{
+    padding-top: 100px;
+  }
+  .cover-text h1 { 
+    font-size: 36px; 
+  }
+  .cover-text p { 
+    font-size: 16px; 
+  }
+  main {
+    padding-top: 80px;
+    background:  url(../images/BG.png);
+    background-repeat: no-repeat !important;
+    background-size:  500px auto   !important;
+    background-position: top 0px right -30% !important;
+    padding-bottom: 80px;
+  }
+  .sec1 {
+    min-height: unset;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .box-ri {
+    padding: 18px 16px; 
+  }
+  .box-ri .hb::after{
+    top: 98px;
+  }
+  .box-ri h2{
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .home-grp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .home-tt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-work {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-work2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-ri2{
+    padding: 60px 30px;
+  }
+  .box-ri2 h3{
+    font-size: 24px;
+  }
+  .box-ri2 h5{
+    font-size: 16px;
+  }
 }
