@@ -67,6 +67,14 @@ main{
   background-position:  top 50% center, bottom -50% center ,top right !important; 
   padding-bottom: 100px;
 }
+main.main2{
+  padding-top: 80px;
+  background: url(../images/bg3.png) , url(../images/bg5.png)  ;
+  background-repeat: no-repeat , no-repeat !important;
+  background-size: 100% auto, 100% auto  !important;
+  background-position:  top 50% center, bottom -50% center !important; 
+  padding-bottom: 100px;
+}
 .cover-text{
   padding-top: 220px;
 }
@@ -159,6 +167,36 @@ main{
   background: linear-gradient(107.28deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
   box-shadow: 0px 4px 6px rgba(90, 110, 123, 0.2);
   border-radius: 16px;
+}
+.box-ri2.bor{
+  border: 1px solid #076DCA;
+}
+.box-ri2.bor{
+  padding: 60px 0px;  
+}
+.box-ri3{
+  position: relative; 
+  background: linear-gradient(107.28deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 16px;
+  margin-top: 80px;
+  border: 1px solid #076DCA;
+  padding: 60px;
+}
+.lucky-inv{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px; 
+  height: 50px; 
+  padding: 10px 20px;
+  background: linear-gradient(96.52deg, #0B5BA3 0%, #268FEE 319.48%);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px; 
+  text-align: center;
+  text-transform: capitalize; 
+  color: #FFFFFF;
 }
 .box-ri2 h3{
   font-weight: 700;
@@ -352,6 +390,357 @@ footer h6{
 .box-work2 .lSPager.lSpg{
   margin-top: 30px !important;
 }
+.box-ri3 h3 {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #F7F7F7;
+}
+.invesp{
+  padding: 15px 28px;  
+  width: 241px;
+  height: 223px; 
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(90, 110, 123, 0.2);
+  border-radius: 16px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.invesp h5{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; 
+  text-align: center;
+  text-transform: capitalize; 
+  color: #111111; 
+  margin-bottom: 10px;
+}
+.invesp h2{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px; 
+  text-align: center;
+  text-transform: capitalize; 
+  color: #111111;  
+}
+.invesp .btn{
+  padding: 10px 25px; 
+  width: 100%;
+  max-width: 100%;
+  height: 47px; 
+  background: #F69F2C;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px; 
+  color: #F7F7F7;
+} 
+.leader-award{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.leader-award h3{
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #F7F7F7;
+}
+.box-bg{
+  padding: 24px 70px; 
+  position: relative; 
+  background: linear-gradient(91.06deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.07) 100%);
+  backdrop-filter: blur(20px); 
+  border-radius: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.box-bg .text1{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;  
+  text-transform: capitalize; 
+  color: #FFFFFF; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box-bg .text2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px; 
+  text-align: right;
+  text-transform: capitalize; 
+  color: #FFFFFF; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}  
+.box-bg .text1 span{
+  font-weight: 700;
+} 
+.box-bg .label{
+  padding: 0px 10px;  
+  height: 36px; 
+  background: #F69F2C;
+}
+.box-buy{
+  padding: 56px 78px; 
+  background: linear-gradient(107.28deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  backdrop-filter: blur(20px); 
+  border-radius: 16px;
+  border: 1px solid #268FEE;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box-buy .lucky-inv{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px; 
+  height: 66px; 
+  padding: 15px 30px; 
+  background: linear-gradient(96.52deg, #0B5BA3 0%, #268FEE 319.48%);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px; 
+  text-align: center;
+  text-transform: capitalize; 
+  color: #FFFFFF;
+}
+.box-buy .lucky-inv img{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36px;
+}
+.box-buy .form-control{
+  padding: 10px 30px 10px 20px; 
+  height: 44px;  
+  width: calc(100% - 80px);
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+}
+.box-buy .form-control{
+  padding: 10px 30px 10px 20px; 
+  height: 44px;  
+  width: calc(100% - 60px);
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.box-buy .form-control + .btn-max{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 25px;  
+  width: 85px;
+  height: 44px;  
+  background: #0C5DA6;
+  border-radius: 16px; 
+}
+.box-buy label{ 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  color: #FFFFFF; 
+}
+.box-buy .btn-buy{ 
+  width: 100%;
+  padding: 10px 60px; 
+  height: 44px; 
+  background: #4AA71C;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  text-align: center;
+  text-transform: capitalize;  
+  color: #FFFFFF;
+}
+.box-buy .btn-sell{ 
+  width: 100%;
+  padding: 10px 60px; 
+  height: 44px; 
+  background: #F69F2C;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  text-align: center;
+  text-transform: capitalize;  
+  color: #FFFFFF;
+} 
+.box-user-detail{
+  padding: 56px 78px; 
+  background: linear-gradient(107.28deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  backdrop-filter: blur(20px); 
+  border-radius: 16px;
+  border: 1px solid #268FEE;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box-user-detail .hr{
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.box-user-detail .form-control{
+  padding: 10px 30px 10px 20px; 
+  height: 44px;  
+  width: calc(100% - 80px);
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+}
+.box-user-detail .form-control{
+  padding: 10px 30px 10px 20px; 
+  height: 44px;  
+  width: calc(100% - 112px);
+  border: 1px solid #CECECE;
+  border-radius: 16px;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.box-user-detail .form-control + .btn-max{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 25px;  
+  width: 96px;
+  height: 44px;  
+  background: #0C5DA6;
+  color: #fff;
+  border-radius: 16px; 
+}
+.box-user-detail label{ 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  color: #FFFFFF; 
+} 
+.box-user-detail .text1{ 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px; 
+  text-transform: capitalize; 
+  color: #FFFFFF; 
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.box-user-detail .text2{ 
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px; 
+  text-transform: capitalize; 
+  color: #FFFFFF; 
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.box-user-detail .text2 span{ 
+  float: right;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px; 
+  text-transform: capitalize; 
+  color: #FFFFFF;
+}
+.box-user-detail .table th{ 
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px; 
+  text-transform: capitalize; 
+  color: #FFFFFF;
+  border-bottom: 0px; 
+  vertical-align: top;
+}
+.box-user-detail .table th:first-child{  
+  border-left: 1px solid #fff;
+}
+.box-user-detail .table th:last-child{  
+  border-right: 1px solid #fff;
+}
+.box-user-detail .table td{ 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px; 
+  text-transform: capitalize; 
+  color: #FFFFFF; 
+  vertical-align: middle;
+} 
+.box-user-detail .table td:first-child{  
+  border-left: 1px solid #fff;
+}
+.box-user-detail .table td:last-child{  
+  border-right: 1px solid #fff;
+}
+.box-user-detail .table tr:last-child td{  
+  border-bottom: 1px solid #fff;
+}
+.box-user-detail .btn-success{  
+  padding: 10px 25px; 
+  height: 44px;  
+  background: #4AA71C;
+  border-radius: 16px; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  text-align: center;
+  text-transform: capitalize; 
+}
+.box-user-detail .btn-wait{  
+  padding: 10px 25px; 
+  height: 44px;  
+  background: #C4CBC3;
+  border-radius: 16px; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; 
+  text-align: center;
+  text-transform: capitalize; 
+  color: #000;
+}
+.nav-number{
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.nav-number li{
+  border: 1px solid #fff;
+  padding: 8px;
+  min-width: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px; 
+  letter-spacing: -0.24px; 
+  color: #FFFFFF;
+  text-align: center;
+}
+.nav-number li:first-child{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.nav-number li:last-child{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.nav-number li.active{
+  background-color: #0C5DA6;
+}
+
+
 
 /* 
 #F9A22E
@@ -446,6 +835,98 @@ font-family: Satisfy;
   .box-work2 {
     padding-top: 50px;
     padding-bottom: 50px;
+  } 
+  .box-ri2 h3{ 
+    font-size: 32px; 
+  } 
+  .box-ri2 h5{ 
+    font-size: 20px; 
+  } 
+  .box-ri3 h3 { 
+    font-size: 24px;
+    line-height: 52px; 
+  }
+  .box-ri3 .hbc::after {
+    top: 0px;
+  }
+  .lucky-inv{
+    font-size: 16px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 16px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 260px;
+  }
+  .box-ri3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 50px 16px 50px; 
+  }
+  .invesp{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .leader-award h3 { 
+    font-size: 32px;
+    line-height: 52px; 
+  }
+  .leader-award .hbc::after {
+    top: 0px;
+  }
+  .box-bg {
+    padding: 24px  ; 
+  }
+  .box-bg .text1{
+    white-space: nowrap;
+  }
+  .leader-award {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box-user-detail {
+    padding: 60px 16px; 
+  }
+  .box-user-detail .text1 {
+    font-weight: 400;
+    font-size: 14px; 
+  }
+  .box-user-detail .text2 { 
+    font-size: 16px; 
+  }
+  .box-user-detail .text2 span{ 
+    font-weight: 400;
+    font-size: 14px; 
+  }
+  .box-user-detail .table th { 
+    font-size: 14px;
+    line-height: 20px; 
+  }
+  .box-user-detail .btn-success {
+    padding: 6px 6px;
+    height: 40px; 
+    font-weight: 500;
+    font-size: 12px; 
+  }
+  .box-user-detail .btn-wait {
+    padding: 2px 6px;
+    height: 40px; 
+    font-weight: 500;
+    font-size: 12px; 
+  } 
+  .lucky-inv{
+    font-size: 16px; 
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 16px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 260px;
+  }
+  .box-buy{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 70px 16px 50px; 
   }
 }
 
@@ -510,5 +991,8 @@ font-family: Satisfy;
   }
   .news {
     max-width: 320px;
+  }
+  .box-ri2 h3 {
+    font-size: 20px;
   }
 }
