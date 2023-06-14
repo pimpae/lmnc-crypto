@@ -70,6 +70,92 @@
   color: #000;
 }
 
+
+.theme-white main.main2{
+  padding-top: 80px;
+  background: url(../images/bg3.png) , url(../images/bg3.png) , #fff !important ;
+  background-repeat: no-repeat , no-repeat !important;
+  background-size: 100% auto, 100% auto  !important;
+  background-position:  top 60% center, bottom -20%  center !important; 
+  padding-bottom: 100px;
+}
+.theme-white .box-ri3{
+  border: 1px solid #0C5BA4 !important; 
+}
+.theme-white .box-ri3 h3{
+  color: #000 !important;
+} 
+.theme-white .leader-award h3{
+  color: #000 !important;
+} 
+.theme-white .leader-award .text1{
+  color: #000;
+}
+.theme-white .leader-award .text2{
+  color: #000;
+}
+.theme-white .leader-bg{
+  background: linear-gradient(118.65deg, #0B5BA3 0%, #268FEE 100%);
+}
+.theme-white .leader-bg h3{
+  color: #fff !important;
+}
+.theme-white .leader-award.leader-bg .text1{
+  color: #fff;
+}
+.theme-white .leader-award.leader-bg .text2{
+  color: #fff;
+}
+.theme-white .box-user-detail label{
+  color: #000 !important;
+}
+.theme-white .box-user-detail input{
+  color: #000 !important;
+}
+.theme-white .box-user-detail .table th{
+  color: #000 !important;
+  border-top: 1px solid #000;
+} 
+.theme-white .box-user-detail .table td{
+  color: #000 !important;
+  border-top: 1px solid #000;
+}  
+
+.theme-white .box-user-detail .table td:first-child{  
+  border-left: 1px solid #000;
+}
+.theme-white .box-user-detail .table td:last-child{  
+  border-right: 1px solid #000;
+}
+.theme-white .box-user-detail .table tr:last-child td{  
+  border-bottom: 1px solid #000;
+}
+
+.theme-white .box-user-detail .table th:first-child{  
+  border-left: 1px solid #000;
+}
+.theme-white .box-user-detail .table th:last-child{  
+  border-right: 1px solid #000;
+}
+.theme-white .box-buy label{
+  color: #000 !important;
+}
+.theme-white .box-buy input{
+  color: #000 !important;
+}
+.theme-white .nav-number li { 
+  border: 1px solid #DFE2E6;
+  color: #0C5DA6;
+} 
+.theme-white .nav-number li.active {  
+  color: #fff;
+}
+.theme-white .box-user-detail { 
+  background: linear-gradient(107.28deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.1) 100%); 
+}
+
+
+
 @media only screen and (max-width: 576px) { /* MOBILE */ 
   .theme-white main {
     padding-top: 80px;
