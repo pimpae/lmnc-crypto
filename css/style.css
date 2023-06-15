@@ -929,7 +929,77 @@ font-family: Satisfy;
     padding: 70px 16px 50px; 
   }
 }
-
+@media only screen and (max-width: 320px) { /* MOBILE */
+  .cover-text h1 {
+    font-size: 24px;
+    line-height: 60px;
+  }
+  .cover-text p { 
+    font-size: 14px;
+    line-height: 22px;  
+  }
+  .logo-200 {
+    margin-top: 20px;
+    height: 200px;
+    margin-right: auto;
+  }
+  .box-ri h2 { 
+    font-size: 24px;
+    line-height: 24px; 
+  }
+  .box-ri2 {
+    padding: 30px 8px;
+    height: unset;
+  }
+  .box-ri2 h3{
+    font-size: 24px;
+  }
+  .box-ri2 h5{
+    font-size: 16px;
+  }
+  .box-work h3 { 
+    font-size: 40px;
+    line-height: 32px; 
+    font-size: 24px;
+  }
+  .box-work p {
+    font-size: 14px;
+  }
+  .news .des {
+    padding: 16px  ; 
+  }
+  .news .des h6 { 
+    font-size: 14px; 
+  }
+  footer .logo3 {
+    height: 65px;
+  }
+  .invesp h2 { 
+    font-size: 58px; 
+  }
+  .leader-award h3 {
+    font-size: 24px;
+    line-height: 52px;
+  }
+  .box-bg .text1 { 
+    font-size: 14px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .box-bg .text2 { 
+    font-size: 14px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .box-buy .lucky-inv { 
+    height: 50px;
+    padding: 7px 20px; 
+    font-size: 20px; 
+  }
+  .box-buy .lucky-inv img{ 
+    height: 30px; 
+  }
+} 
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) { /* MOBILE */
   .cover-text{
