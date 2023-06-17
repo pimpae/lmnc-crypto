@@ -740,6 +740,10 @@ footer h6{
   background-color: #0C5DA6;
 }
 
+#chart {
+  max-width: 100%; 
+}
+
 
 
 /* 

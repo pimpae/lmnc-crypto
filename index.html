@@ -19,7 +19,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
    
-	
+	<script src="https://cdn.jsdelivr.net/npm/cryptocharts"></script>
+
+
 </head>
 <body class="theme"> 
 	
@@ -86,6 +88,8 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="grp">
+							<div id="chart">
+							</div>
 
 						</div>
 					</div>
@@ -295,6 +299,7 @@
 		</div>
 		<h6>Copyright © 2022 LMNC</h6>
 	</footer>
+	<div id="google_translate_element"></div>
 
 
 
@@ -306,9 +311,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"  ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"  ></script>  
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>  
 
-	<script>
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+	<script type="text/javascript">
  
  
  		$(document).ready(function() { 
@@ -391,11 +399,114 @@
 			$(".theme").toggleClass("theme-white");
 			$('.theme-sw span').text(($(".theme-sw span").text() == "Light") ? "Dark" : "Light").fadeIn();
 		});
+		
  
-		 
-	</script>
-   
+		var options = {
+		chart: {
+			height: 350,
+			type: "line",
+			stacked: false
+		},
+		dataLabels: {
+			enabled: false
+		},
+		colors: ["#FF1654", "#247BA0", "#F89E29"],
+		series: [
+			{
+			name: "Crypto A",
+			data: [1.4, 2, 2.5, 1.5, 2.5, 2.8, 3.8, 4.6]
+			},
+			{
+			name: "Crypto B",
+			data: [20, 29, 37, 36, 44, 45, 50, 58]
+			},
+			{
+			name: "Crypto C",
+			data: [11, 22, 12, 25, 34, 33, 25, 34]
+			}
+		],
+		stroke: {
+			width: [4, 4 , 4]
+		},
+		plotOptions: {
+			bar: {
+			columnWidth: "20%"
+			}
+		},
+		xaxis: {
+			categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016]
+		},
+		yaxis: [
+			{
+			axisTicks: {
+				show: true
+			},
+			axisBorder: {
+				show: true,
+				color: "#FF1654"
+			},
+			labels: {
+				style: {
+				colors: "#FF1654"
+				}
+			},
+			title: {
+				text: "Series A",
+				style: {
+				color: "#FF1654"
+				}
+			}
+			},
+			{
+			opposite: true,
+			axisTicks: {
+				show: true
+			},
+			axisBorder: {
+				show: true,
+				color: "#247BA0"
+			},
+			labels: {
+				style: {
+				colors: "#247BA0"
+				}
+			},
+			title: {
+				text: "Series B",
+				style: {
+				color: "#247BA0"
+				}
+			}
+			}
+		],
+		tooltip: {
+			shared: false,
+			intersect: true,
+			x: {
+			show: false
+			}
+		},
+		legend: {
+			horizontalAlign: "left",
+			offsetX: 40
+		}
+	};
 
+	var chart = new ApexCharts(document.querySelector("#chart"), options);
+
+	chart.render();
+
+
+	</script>
+	<script type="text/javascript">
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+	}
+	</script>
+	
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
+	
 
 </body>
 </html>
